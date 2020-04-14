@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/whiteboard-cs5610-sp20',
+mongoose.connect('mongodb://heroku_16r5rwvs:2qnloiqaph0g8b8tfrc4cs7cpg@ds141952.mlab.com:41952/heroku_16r5rwvs',
     {useNewUrlParser:true, useUnifiedTopology:true})
 var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }))
